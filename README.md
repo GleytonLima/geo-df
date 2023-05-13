@@ -2,4 +2,14 @@
 
 Regiões administrativas do DF em formato geojson
 
-Baseado nos polígonos do OpenStreetMap
+## Descrição dos arquivos
+
+| Pasta         | Arquivo                                                                                                                  | Descrição                                                                                                                                   | Fonte                                                                                                                                                                                        |
+|---------------|--------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| dados         | [df_area_admisnitrativa_populacao.csv](./dados/df_area_administrativa_populacao.csv)                                     | População das áreas administrativas                                                                                                         | [Wikipedia](https://pt.wikipedia.org/wiki/Regi%C3%B5es_administrativas_do_Distrito_Federal_%28Brasil%29)                                                                                     |
+| dados         | [df_cep_aberto.csv](./dados/df_cep_aberto.csv)                                                                           | Lista de CEPs do DF                                                                                                                         | [CEP Aberto](https://www.cepaberto.com/)                                                                                                                                                     |
+| regioes_saude | [df-regioes-saude.geojson](regioes_saude/df-regioes-saude.geojson)                                                       | Mapa no formato geojson das regiões de saúde do DF. Foram extraídos                                                                         | [OpenStreetMap](https://www.openstreetmap.org/)                                                                                                                                              |
+| regioes_saude | [br_regionais_simplificado_df_es_atualizados.geojson](regioes_saude/br_regionais_simplificado_df_es_atualizados.geojson) | Mapa no formato geojson das regiões de saúde do Brasil. Com regionais do Espírito Santo Atualizados e inclusão dos regionais de saúde do DF | SAVINIEC, Landir; ROCHA, Alexsandra Bezerra da. Shape das Regiões de Saúde do Brasil. 13 de jul. de 2020. Disponível em: https://github.com/lansaviniec/shapefile_das_regionais_de_saude_sus |
+
+Além disso a pasta [df_regioes_administrativas](df_regioes_administrativas) possui os arquivos geojson utilizados
+para geração das regiões de saúde do Distrito Federal
